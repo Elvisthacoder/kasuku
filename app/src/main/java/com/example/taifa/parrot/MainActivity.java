@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.select_language) {
             startActivity(new Intent(android.provider.Settings.ACTION_LOCALE_SETTINGS));
             return true;
-            
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 
     }
 }
