@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Parrot</string>
+    <!--<string name="app_name">Parrot Sample</string>-->
+    <string name="hello_world">Hello World!</string>
+    <string name="thank_you">Thank you</string>
+    <string name="welcome">Welcome</string>
+    <string name="good_bye">Good bye</string>
+    <string name="good_morning">Good morning</string>
+    <string name="excuse_me">Excuse me</string>
+    <string name="notice">Notice that this text is always the same regardless the OS language because we are overriding
+        the value in each values folder
+    </string>
+    <string name="change_language">Select Language</string>
 </resources>
