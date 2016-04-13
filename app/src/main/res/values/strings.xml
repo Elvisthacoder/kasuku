@@ -11,4 +11,12 @@
         the value in each values folder
     </string>
     <string name="change_language">Select Language</string>
+    <string-array name="greetings">
+        <item>@string/hello_world</item>
+        <item>@string/thank_you</item>
+        <item>@string/welcome</item>
+        <item>@string/good_bye</item>
+        <item>@string/good_morning</item>
+        <item>@string/excuse_me</item>
+    </string-array>
 </resources>
