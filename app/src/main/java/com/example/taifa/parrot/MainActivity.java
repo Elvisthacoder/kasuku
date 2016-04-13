@@ -9,5 +9,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ListView list = (ListView) findViewById(R.id.list);
+        list.setAdapter(new ArrayAdapter<>(this,
+                android.R.layout.simple_list_item_1,
+                getResources().getStringArray(R.array.greetings)));
+
     }
 }
