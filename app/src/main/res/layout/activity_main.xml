@@ -10,7 +10,10 @@
     tools:context="com.example.taifa.parrot.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:text="@string/notice"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:padding="16dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
 </RelativeLayout>
